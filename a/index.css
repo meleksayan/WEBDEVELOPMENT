@@ -1,0 +1,175 @@
+
+/* that is the starting point */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+h3{
+    color: bisque;
+    font-size: 20px;
+    text-align: center;
+    margin-right: 20px;
+}
+
+/* body general properties*/
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color:white;
+}
+
+
+/*header starting*/
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:brown;
+    color: aliceblue;
+    padding: 10px;
+   
+}
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav ul li {
+    padding: 0px 20px;
+    margin-right: 10px;
+    display:inline-block;
+    list-style-type: none;
+}
+
+/*header finished*/
+/*section part is starting*/
+.leftsidebar{
+    height: 700px;
+    width: 25%;
+    background-color: gray;   /* i divided it into 3 divices first:left part */
+    float: left;
+}
+.main{
+    height: 700px;
+    width: 50%;
+    background-color:brown ;    /* main part careful:that is class*/
+    float: left;
+    text-align: center;
+}
+.rightsidebar{
+    height: 700px;
+    width: 25%;
+    background-color:  gray;   /*right part*/
+    float: left;
+}
+
+/* to separate the sidebars*/
+.box{
+    margin: 30px;
+    border: black;
+    border-style:double;
+    border-radius: 20px; 
+    width: 200px;
+}
+/*used it for the image in the main section */
+.imgm{
+    height: 250px;
+    width: 100%;
+}
+/*general section properties*/
+section {
+    margin-bottom: 20px;
+    
+
+}
+/*used to available balance box and account box*/
+.img{
+    margin-left: 20px;
+    margin-top: 10dp;
+    padding-top: 10px;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    float: left;
+    ;
+
+}
+/*to images in the leftsidebar*/
+.rate{
+    margin-left: 20px;
+    margin-top: 10dp;
+    padding-top: 10px;
+    width: 50px;
+    height: 60px;
+    cursor: pointer;
+    
+}
+.rate-text{
+    margin-left: 20px;
+    text-align: center;
+    list-style-type: none;
+}
+/*to span elements*/
+span {
+    margin-left: 10px;
+    
+}
+h1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: bisque;
+
+}
+h4{
+    margin-left: 45px;
+}
+/*to p elements*/
+p{
+    margin-left: 20px;
+
+}
+/*footer part is starting*/
+footer {
+    background-color: black;
+    height: 150px;
+    align-items: end;
+    color: #fff;
+    margin-bottom: 0px;
+    padding: 20px;
+    text-align: center;
+    clear: both;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-around;
+}
+
+.contact-info,
+.social-media,
+.about-us {
+    flex: 1;     /*equally with other flexible elements in the container*/
+}
+
+.about-us {
+    text-align: center;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
