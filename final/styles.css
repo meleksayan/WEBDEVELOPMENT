@@ -1,0 +1,90 @@
+body {
+  margin: 0;
+  font-family: "Arial", sans-serif;
+  padding: 0;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  background-color: #f6add6;
+  padding: 10px;
+  color: white;
+}
+
+.left-header{
+  display: flex;
+  align-items: center;
+}
+.left-header img {
+  height: 100px;
+  width: 100px;
+}
+
+/* Styling for the right header */
+.right-header{
+  display: flex;
+  align-items: center;
+}
+/* Styling for the header image */
+.right-header img {
+  height: 70px;
+  cursor: pointer;
+  padding-right: 25px;
+}
+
+main {
+  display: flex;
+}
+
+
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 75%;
+  padding: 20px;
+  border: 3px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  flex-direction: row;
+  margin :10px;
+}
+
+label {
+  display: flex;
+  margin-bottom: 8px;
+}
+
+section {
+  margin-bottom: 20px;
+  padding: 10px;
+}
+
+input,
+select {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 12px;
+  box-sizing: border-box;
+}
+
+button { 
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  background-color: #f6add6;
+}
+
+button:hover {
+  background-color: gray;
+}
+
+@media screen and (max-width: 950px) {
+  .container {
+    flex-direction: row;
+  }
+}
